@@ -36,4 +36,4 @@ branches:
 #build以后的地址
 env:
  global:
-   - GH_REF: https://github.com/Dfghhj/dfghhj.github.io.git
+   - GH_REF: github.com/Dfghhj/dfghhj.github.io.git
