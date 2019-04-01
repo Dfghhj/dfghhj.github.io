@@ -9,7 +9,7 @@ cache:
     
 #安装hexo及插件
 install:
-  - npm install  
+  - npm install -g gulp
 
 #清除 生成
 script:
