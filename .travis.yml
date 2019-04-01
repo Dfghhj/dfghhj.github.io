@@ -27,9 +27,9 @@ after_script:
   #- git push --force --quiet "https://${GH_TOKEN}@${你得项目地址(如果源码跟发布的不在一个分支 这里是分发布用的分支地址)，不带https}" master:master
 
 #默认一个分支可以忽略此配置--监视github仓库中的master分支，分支出现变化就执行build
-#branches:
-#  only:
-#    - blogTS
+branches:
+ only:
+   - blog-source
 
 #build以后的地址
 env:
