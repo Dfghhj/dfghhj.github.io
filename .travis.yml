@@ -9,11 +9,13 @@ cache:
     
 #安装hexo及插件
 install:
+  - npm install hexo-cli -g
   - npm install
 
 #清除 生成
 script:
-  - hexo g
+  - hexo clean 
+  - hexo g -d
 
 after_script:
   - cd ./public
