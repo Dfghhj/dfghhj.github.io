@@ -9,7 +9,7 @@ cache:
     
 #安装hexo及插件
 install:
-  - npm install -g gulp
+  - npm install hexo-cli -g
 
 #清除 生成
 script:
