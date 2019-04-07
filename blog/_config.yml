@@ -85,3 +85,13 @@ search:
   field: post
   format: html
   limit: 10000
+
+reading_progress:
+  enable: true 
+  color: "#37c6c0"
+  height: 2px
+
+han: true
+
+pangu: true
+
