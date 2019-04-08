@@ -17,6 +17,7 @@
     "hexo-server": "^0.3.3",
     "hexo-renderer-pug":"^0.0.5",
     "hexo-renderer-sass":"^0.4.0",
-    "hexo-generator-searchdb": "^1.0.8"
+    "hexo-generator-searchdb": "^1.0.8",
+    "hexo-asset-image":"^0.0.3"
   }
 }
