@@ -9,4 +9,4 @@ Welcome to [Hexo](https://hexo.io/)! This is your very first post. Check [docume
 
 ![test](test/test_1.jpg)
 
-{% fi test/test_1.jpg %}
+{% asset_img  test_1.jpg test图片 %}
