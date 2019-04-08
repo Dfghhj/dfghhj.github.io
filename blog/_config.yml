@@ -85,3 +85,6 @@ search:
   field: post
   format: html
   limit: 10000
+
+symbols_count_time:
+  symbols: false

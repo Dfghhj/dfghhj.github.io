@@ -211,4 +211,9 @@
   {% if theme.sidebar.dimmer %}
     <div id="sidebar-dimmer"></div>
   {% endif %}
+
+  <div>
+    <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=477931&auto=1&height=66"></iframe>
+  </div>
+
 {% endmacro %}
