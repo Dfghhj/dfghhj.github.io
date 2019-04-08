@@ -6,4 +6,6 @@ tags: test
 
 <!--more-->
 
-{% fi /source/test/test_1.jpg %}
+![test](test/test_1.jpg)
+
+{% fi test/test_1.jpg %}
