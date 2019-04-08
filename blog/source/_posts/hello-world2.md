@@ -1,8 +1,10 @@
 ---
 title: Hello World
 toc: true
-tags: hello
-categories: word
+tags:
+- hello
+categories: 
+- word
 date: 2019/4/5 12:36:22
 updated: 2019/4/8 11:36:22
 ---
