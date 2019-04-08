@@ -159,7 +159,7 @@ baidu_push: false
 menu:
   home: / || home
   archives: /archives/ || archive
-  # categories: /categories/ || th
+  categories: /categories/ || th
   tags: /tags/ || tags
   about: /about/ || user
   #schedule: /schedule/ || calendar
@@ -199,7 +199,7 @@ site_state: true
 social:
   GitHub: https://github.com/Dfghhj || github
   Mail: mailto:dfghhj95@163.com || envelope
-  知乎: https://www.zhihu.com/people/fei-feng-82-25 || globe-europe
+  知乎: https://www.zhihu.com/people/fei-feng-82-25 || book
   #Weibo: https://weibo.com/yourname || weibo
   #Google: https://plus.google.com/yourname || google
   #Twitter: https://twitter.com/yourname || twitter
