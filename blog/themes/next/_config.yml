@@ -197,8 +197,9 @@ site_state: true
 # Value before `||` delimeter is the target permalink.
 # Value after `||` delimeter is the name of FontAwesome icon. If icon (with or without delimeter) is not specified, globe icon will be loaded.
 social:
-  #GitHub: https://github.com/yourname || github
-  #E-Mail: mailto:yourname@gmail.com || envelope
+  GitHub: https://github.com/Dfghhj || github
+  Mail: mailto:dfghhj95@163.com || envelope
+  知乎: https://www.zhihu.com/people/fei-feng-82-25 || globe-europe
   #Weibo: https://weibo.com/yourname || weibo
   #Google: https://plus.google.com/yourname || google
   #Twitter: https://twitter.com/yourname || twitter
@@ -269,14 +270,14 @@ sidebar:
   # Enable sidebar on narrow view (only for Muse | Mist).
   onmobile: false
   # Click any blank part of the page to close sidebar (only for Muse | Mist).
-  dimmer: false
+  dimmer: true
 
 back2top:
   enable: true
   # Back to top in sidebar.
   sidebar: false
   # Scroll percent label in b2t button.
-  scrollpercent: false
+  scrollpercent: true
 
 # A button to open designated chat widget in sidebar.
 # Firstly, you need enable the chat service you want to activate its sidebar button.
