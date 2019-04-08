@@ -45,7 +45,7 @@ favicon:
 # Set rss to false to disable feed link.
 # Leave rss as blank to use site's feed link, and install hexo-generator-feed: `npm install hexo-generator-feed --save`.
 # Set rss to specific value if you have burned your feed already.
-rss:
+rss: 
 
 footer:
   # Specify the date when the site was setup. If not defined, current year will be used.
@@ -93,9 +93,9 @@ footer:
 # Valid values of language: deed.zh, deed.fr, deed.de, etc.
 creative_commons:
   license: by-nc-sa
-  sidebar: false
-  post: false
-  language:
+  sidebar: true
+  post: true
+  language: deed.zh
 
 # `Follow me on GitHub` banner in the top-right corner.
 github_banner:
