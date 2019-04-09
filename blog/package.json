@@ -15,10 +15,10 @@
     "hexo-renderer-stylus": "^0.3.3",
     "hexo-renderer-marked": "^0.3.2",
     "hexo-server": "^0.3.3",
-    "hexo-renderer-pug":"^0.0.5",
-    "hexo-renderer-sass":"^0.4.0",
+    "hexo-renderer-pug": "^0.0.5",
+    "hexo-renderer-sass": "^0.4.0",
     "hexo-generator-searchdb": "^1.0.8",
-    "hexo-asset-image":"^0.0.3",
-    "hexo-symbols-count-time":"^0.4.4"
+    "hexo-asset-image": "^0.0.3",
+    "hexo-symbols-count-time": "^0.4.4"
   }
 }
