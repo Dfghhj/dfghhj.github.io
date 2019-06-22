@@ -13,7 +13,7 @@ updated: 2019/06/22 16:27:00
 &emsp;&emsp;代理分为静态代理和动态代理。静态代理是在编译时就将接口、实现类、代理类全部手动完成；动态代理可以在程序运行期间根据需要动态的创建代理类及其实例，来完成具体的功能。
 
 <!--more-->
-## 1.静态代理
+## 静态代理
 &emsp;&emsp;首先创建一个接口，然后创建具体实现类来实现这个接口，再创建一个代理类同样实现这个接口，不同之处在于，具体实现类中的方法需要将业务逻辑功能实现，而代理类中的方法只需要调用具体类中的对应方法，这样我们在需要使用接口中的某个方法的功能时直接调用代理类的方法即可。类图图下所示。
 
 ![静态代理](proxy/静态代理.png)
@@ -27,7 +27,7 @@ public interface Subject {
 
     String getName();
 }
-``` 
+```
 2.创建具体实现类RealSubject  
 ```JAVA
 public class RealSubject implements Subject {
@@ -68,7 +68,7 @@ public class ProxySubject implements Subject {
         return name;
     }
 }
-``` 
+```
 4.测试  
 ```JAVA
 public class StaticProxyTest {
@@ -93,7 +93,7 @@ Name is 大大
 getName --- 后置操作
 ```
 
-## 2.动态代理
+## 动态代理
 &emsp;&emsp;在静态代理中，一个代理只能代理一种类型，而且是在编译时就已经确定被代理的对象。而动态代理是在运行时，通过反射机制实现动态代理，并且能够代理各种类型的对象。  
 &emsp;&emsp;在Java中要想实现动态代理机制，需要java.lang.reflect.InvocationHandler接口和 java.lang.reflect.Proxy 类的支持。类图图下所示。
 
@@ -106,7 +106,7 @@ public interface Subject {
 
     void doSports(String SportName);
 }
-``` 
+```
 2.创建具体实现类RealSubject  
 ```JAVA
 public class RealSubject implements Subject {
@@ -187,5 +187,5 @@ public class DynamicProxyTest {
 [Proxy Demo](https://github.com/Dfghhj/ProxyDemo)
 
 ## 参考：
-- <<Head First设计模式(中文版)>>第11章
+- 《Head First设计模式(中文版)》第11章
 - [java静态代理与动态代理简单分析](https://www.cnblogs.com/V1haoge/p/5860749.html)
