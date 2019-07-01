@@ -48,7 +48,7 @@ updated: 2019/06/30 14:09:00
 ![1](spring_boot_maven_plugin/1.png)  
 
 没有spring-boot-maven-plugin插件情况下：  
-![2](spring_boot_maven_plugin/1.png)  
+![2](spring_boot_maven_plugin/2.png)  
 
 &emsp;&emsp;对比了jar包的结构，基本可以确定就是spring-boot-maven-plugin插件的原因。spring-boot-maven-plugin插件打包后所有的包和类都放到了BOOT-INF文件夹中，而一般方式打包出来的包和类都在根路径下面。解决方案有二：
 
