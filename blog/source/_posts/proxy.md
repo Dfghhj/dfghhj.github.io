@@ -18,7 +18,7 @@ updated: 2019/06/22 16:27:00
 
 ![静态代理](proxy/静态代理.png)
 
-### 例子：  
+### 例子
 1.定义接口Subject  
 ```JAVA
 public interface Subject {
@@ -99,7 +99,7 @@ getName --- 后置操作
 
 ![动态代理](proxy/动态代理.png)
 
-### 例子：
+### 例子
 1.定义接口Subject  
 ```JAVA
 public interface Subject {
@@ -183,9 +183,9 @@ public class DynamicProxyTest {
 开始：踢足球
 ```
 
-## 示例代码：
+## 示例代码
 [Proxy Demo](https://github.com/Dfghhj/ProxyDemo)
 
-## 参考：
+## 参考
 - 《Head First设计模式(中文版)》第11章
 - [java静态代理与动态代理简单分析](https://www.cnblogs.com/V1haoge/p/5860749.html)
